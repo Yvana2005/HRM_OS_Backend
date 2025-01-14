@@ -11,13 +11,17 @@ const app = express();
 
 // holds all the allowed origins for cors access
 let allowedOrigins = [
+  "http://localhost",
   "http://localhost:3000",
   "http://localhost:5000",
   "http://localhost:8000/",
   "http://127.0.0.1:8000/",
-  "http://4.227.140.35:3001",
-  "http://4.227.140.35:3000",
-  "http://3.111.150.18:3000",
+  "https://erpsaiilama.com:3000",
+  "https://erpsaiilama.com",
+  "https://www.erpsaiilama.com",
+  "https://erpsaiilama.com/hrm/",
+  "https://www.erpsaiilama.com/hrm/",
+  "https://3.78.5.153/hrm/",
 ];
 
 // limit the number of requests from a single IP address
